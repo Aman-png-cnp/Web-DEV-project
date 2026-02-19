@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>EduPro — Student Skill Accelerator</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container nav-wrap">
+
+    <a class="logo" href="#">Edu<span>Pro</span></a>
+
+    <!-- Burger Menu (NO JS) -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="burger">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta">Enroll</a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+
+    <div class="hero-content">
+      <h1>Upgrade your skills in 30 days.</h1>
+      <p>EduPro helps students learn responsive web, communication and project skills with guided mentoring.</p>
+
+      <!-- Inline CSS (only one place) -->
+      <a href="#contact" class="btn btn-primary" style="letter-spacing:0.5px;">Start Free Demo</a>
+
+      <div class="hero-meta">
+        <div class="meta-box">
+          <strong>1 hour/day</strong>
+          <span>Student-friendly plan</span>
+        </div>
+        <div class="meta-box">
+          <strong>Certificates</strong>
+          <span>On completion</span>
+        </div>
+        <div class="meta-box">
+          <strong>Mentor Help</strong>
+          <span>Weekly support</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <h2>What you'll build</h2>
+      <ul>
+        <li>Responsive landing page</li>
+        <li>Clean UI components</li>
+        <li>Professional form</li>
+        <li>Mobile navbar</li>
+      </ul>
+      <div class="hero-badge">No JS required</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Features -->
+<section id="features" class="section">
+  <div class="container">
+    <h2 class="section-title">Features</h2>
+    <p class="section-subtitle">Simple, clean and professional design.</p>
+
+    <div class="grid-3">
+      <div class="card">
+        <h3>Responsive Layout</h3>
+        <p>Works on mobile, tablet and desktop.</p>
+      </div>
+      <div class="card">
+        <h3>Clean UI</h3>
+        <p>Modern cards, buttons and layout.</p>
+      </div>
+      <div class="card">
+        <h3>Form Design</h3>
+        <p>User-friendly and accessible form.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section alt">
+  <div class="container">
+    <h2 class="section-title">Enroll / Contact</h2>
+
+    <form class="form">
+
+      <div class="form-row">
+        <div class="field">
+          <label>Name</label>
+          <input type="text" required>
+        </div>
+
+        <div class="field">
+          <label>Email</label>
+          <input type="email" required>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Role</label>
+        <select required>
+          <option value="">Select role</option>
+          <option>Student</option>
+          <option>Faculty</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Message</label>
+        <textarea rows="4"></textarea>
+      </div>
+
+      <label class="check">
+        <input type="checkbox" required>
+        <span>I agree to terms</span>
+      </label>
+
+      <button class="btn btn-primary">Submit</button>
+
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© 2026 EduPro</p>
+    <p class="muted">HTML + CSS only</p>
+  </div>
+</footer>
+
+</body>
+</html>
